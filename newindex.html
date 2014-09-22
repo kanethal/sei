@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SEI Anesthesia</title>
+  <!-- <link rel="stylesheet" href="themes/SEItheme.min.css" /> -->
+  <!-- <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" /> -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+
+
+
+<div data-role="popup" id='contactpop' data-overlay-theme="b" data-theme="a" data-tolerance="15,15" class="ui-content hide">
+  <h1 style='text-align:center'>Contact Us</h1>
+  <h3>SEI Anesthesia</h3>
+  <p>333 N 18th Avenue<br>
+    Bldg A<br>
+    Pocatello, ID<br>
+    83201<br>
+    <em>208-233-8880</em></p>
+
+  <p>P.O. Box 4107<br>
+    Pocatello, ID 83205</p>
+
+  <a id='closebtn' href="#" data-rel="back" data-role="button" data-theme="b" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+  <iframe id='map' width="400px" height="450px" seamless src="https://www.google.com/maps/embed/v1/place?q=333%20N%2018th%20Ave%2C%20Pocatello%2C%20ID%2C%20United%20States&amp;key=AIzaSyC-LYZqnoymVYk-qLmc3D1t5W5pc9iedKk"></iframe>
+
+</div>
+
+
+<div data-role="page" class='page hide' data-theme='a' id='home'>
+  <div class="pageheader"></div>
+  <div id="skrollr-body">
+    <div id="homecontent">
+
+      <section id='slider1' class='slider'>
+          <div id="slider1Img" class="sliderImg"
+            data-start='top: 0%;'
+            data-top-bottom='top:30%;'
+
+          ></div>
+              <div class="goodhands">
+              <h2 class='hometop'>You are in</h2>
+              <h2 class='homebottom'>Good Hands</h2>
+              </div>
+              <h3 class='alt caption'>The professionals at <br>South East Idaho Anesthesia<br> are dedicated to providing you the best surgical experience possible.</h3>
+
+      </section>
+      <section id="slider2" class='slider'>
+        <div id="slider2Img" class="sliderImg"
+          data-start='top: -20%;'
+          data-top-top='top: 0%;'
+          data-top-bottom='top:30%;' 
+          ></div>
+        <h3 class='caption'>Our dedication to the best in  modern anesthesia means you can rest assured that your care is the best available.</h3>
+      </section>
+    </div>
+  </div>
+
+  <div class="pagefooter"></div>
+</div>
+
+
+<div data-role="page" class='page hide' data-theme='a' id='team'>
+  <div class="pageheader"></div>
+  <div id="teamcontent" data-role='content'>I am the Team content</div>
+  <div class="pagefooter"></div>
+</div>
+
+<div data-role="page" class='page hide' data-theme='a' id='ob'>
+  <div class="pageheader"></div>
+  <div id="obcontent" data-role='content'>I am the OB content</div>
+  <div class="pagefooter"></div>
+</div>
+
+<div data-role="page" class='page hide' data-theme='a' id='info'>
+  <div class="pageheader"></div>
+  <div id="infocontent" data-role='content'>I am the Info content</div>
+  <div class="pagefooter"></div>
+</div>
+
+<div data-role="page" class='page hide' data-theme='a' id='office'>
+  <div class="pageheader"></div>
+  <div id="officecontent" data-role='content'>I am the Office content</div>
+  <div class="pagefooter"></div>
+</div>
+
+
+
+
+</body>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src='js/buildpage.js'></script>
+<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+<script src='js/skrollr.min.js'></script>
+<script src='js/main.js'></script>
+
+
+</html>
